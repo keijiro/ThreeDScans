@@ -1,3 +1,6 @@
+// Upgrade NOTE: commented out 'float4x4 _WorldToCamera', a built-in variable
+// Upgrade NOTE: replaced '_WorldToCamera' with 'unity_WorldToCamera'
+
 // --------
 // Additional options for further customization
 // --------
@@ -33,7 +36,7 @@ static const float kEpsilon = 1e-4;
 sampler2D _CameraGBufferTexture2;
 sampler2D_float _CameraDepthTexture;
 sampler2D _CameraDepthNormalsTexture;
-float4x4 _WorldToCamera;
+// float4x4 _WorldToCamera;
 
 // Sample count
 // Use a constant on GLES2 (basically it doesn't support dynamic looping).
@@ -117,7 +120,7 @@ float3 SampleNormal(float2 uv)
 {
 #if SOURCE_GBUFFER
     float3 norm = tex2D(_CameraGBufferTexture2, uv).xyz * 2 - 1;
-    return mul((float3x3)_WorldToCamera, norm);
+    return mul((float3x3)unity_WorldToCamera, norm);
 #else
     float4 cdn = tex2D(_CameraDepthNormalsTexture, uv);
     return DecodeViewNormalStereo(cdn) * float3(1, 1, -1);
