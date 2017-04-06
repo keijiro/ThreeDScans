@@ -14,7 +14,7 @@ These models are decimated and retopologized with [Instant Meshes]
 [InstantMeshes] and UV-unwrapped in [Houdini][Houdini]. The Normal maps
 and the occlusion maps are generated with [xNormal][xNormal].
 
-[image]: http://i.imgur.com/ejc0QBX.png
+[image]: http://i.imgur.com/dzCWrmf.png
 [ThreeDScans]: http://threedscans.com/
 [InstantMeshes]: https://github.com/wjakob/instant-meshes
 [Houdini]: https://www.sidefx.com/
