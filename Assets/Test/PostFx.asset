@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -148,7 +148,7 @@ MonoBehaviour:
     value: {fileID: 0}
   tonemapper:
     overrideState: 1
-    value: 2
+    value: 1
   toneCurveToeStrength:
     overrideState: 0
     value: 0
@@ -193,10 +193,10 @@ MonoBehaviour:
     value: 0
   postExposure:
     overrideState: 1
-    value: 0.53
+    value: -0.53
   contrast:
     overrideState: 0
-    value: 0
+    value: 28
   mixerRedOutRedIn:
     overrideState: 0
     value: 100
@@ -226,13 +226,13 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 1
-    value: {x: 0.8103408, y: 0.92617285, z: 1, w: 0}
+    value: {x: 0.8103408, y: 0.92617285, z: 1, w: -0.15219344}
   gamma:
     overrideState: 1
     value: {x: 1, y: 0.9851697, z: 0.92998904, w: 0}
   gain:
-    overrideState: 0
-    value: {x: 0.7535037, y: 1, z: 0.82581985, w: 0}
+    overrideState: 1
+    value: {x: 1, y: 1, z: 1, w: 0.12533571}
   masterCurve:
     overrideState: 0
     value:
