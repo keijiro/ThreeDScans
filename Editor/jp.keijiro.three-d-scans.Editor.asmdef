@@ -1,0 +1,10 @@
+{
+    "name": "jp.keijiro.three-d-scans.Editor",
+    "references": [],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
