@@ -5,10 +5,13 @@ Desktop.ini
 # macOS
 .DS_Store
 
-# Vim
+# Code Editors
+.idea
+.vscode
+*.csproj
+*.sln
 *.swp
 
 # Unity
 /Library
 /Temp
-/Packages
